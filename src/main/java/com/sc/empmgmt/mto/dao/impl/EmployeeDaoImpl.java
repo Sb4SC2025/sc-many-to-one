@@ -1,5 +1,6 @@
 package com.sc.empmgmt.mto.dao.impl;
 
+import ch.qos.logback.core.CoreConstants;
 import com.sc.empmgmt.mto.dao.EmployeeDao;
 import com.sc.empmgmt.mto.dao.entities.Employee;
 import com.sc.empmgmt.mto.dao.repositories.EmployeesRepository;
@@ -36,6 +37,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public void deleteById(long id) {
+        System.out.println("bvghhu");
 
     }
 

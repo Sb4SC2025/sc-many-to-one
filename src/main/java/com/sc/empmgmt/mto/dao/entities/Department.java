@@ -19,4 +19,6 @@ public class Department {
         private Long departmentId;
         @Column(name = "dept_name")
         private String departmentName;
+
+
 }
